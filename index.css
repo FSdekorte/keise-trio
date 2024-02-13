@@ -1,0 +1,245 @@
+body{
+    overflow: hidden;
+}
+
+.section-intro{
+    float: left;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.container-logo-typing{
+    float: left;
+    height: 90vh;
+    width: 90vw;
+}
+
+.logo-section-1{
+    float: left;
+    width: 50vw;
+    margin-left: 20vw;
+    margin-top: 30vh;
+}
+
+.container-typing {
+    float: left;
+    height: 10vh;
+    width: 90vw;
+    margin-left: 0vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-typing p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container-typing p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+}
+
+.container-typing p span.cursor {
+    display: inline-block;
+    background-color: #dd7732;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.container-typing p span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0%  { background-color: #dd7732; }
+    49.9% { background-color: #dd7732; }
+    50% { background-color: #212121; }
+    99.9% { background-color: #212121; }
+    100%  { background-color: #dd7732; }
+}
+
+.section-links-compact{
+    visibility: hidden;
+}
+
+.link-bts{
+    position: fixed;
+    margin-left: 3vw;
+    left: 0;
+    top: 0;
+}
+
+.text-link-bts{  
+    font-size: 2.5rem;
+    color: #dd7732;
+}
+
+.link-privacy{
+    position: fixed;
+    margin-top: 6.5vh;
+    right: 0;
+    top: 0;
+}
+
+.text-link-privacy{
+    transform: rotate(-270deg);
+    font-size: 2.5rem;
+    color: #dd7732;
+    
+}
+
+.link-contact{
+    position: fixed;
+    margin-bottom: 6.5vh;
+    left: 0;
+    bottom: 0;
+}
+
+.text-link-contact{
+    transform: rotate(-90deg);
+    font-size: 2.5rem;
+    color: #dd7732;
+}
+
+.link-about{
+    position: fixed;
+    margin-right: 3vw;
+    right: 0;
+    bottom: 0;
+
+}
+
+.text-link-about{
+    font-size: 2.5rem;
+    color: #dd7732;
+}
+
+.link{
+    transition: all 1s;
+}
+
+.link:hover{
+    color: #f5f5f5;
+}
+
+@media screen and (max-width: 896px) {
+    body{
+        overflow-y: scroll;
+    }
+
+    .section-links{
+        visibility: hidden;
+    }
+
+    .container-typing p {
+        font-size: 2.5rem;
+        padding: 0.25rem;
+        font-weight: bold;
+        letter-spacing: 0.05rem;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .section-links-compact{
+        float: left;
+        visibility: visible;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .compact-link-bts{
+        float: left;
+        width: 90vw;
+        height: 9vh;
+        margin-left: 5vw;
+        margin-top: 6.75vh;
+        margin-bottom: 6.75vh;
+    }
+
+    .compact-text-link-bts{  
+        float: left;
+        width: 90vw;
+        height: 5vh;
+        font-size: 1.7rem;
+        text-align: center;
+        color: #dd7732;
+    }
+
+    .compact-link-privacy{
+        float: left;
+        margin-top: 5vh;
+        width: 90vw;
+        height: 9vh;
+        margin-left: 5vw;
+        margin-top: 6.75vh;
+        margin-bottom: 6.75vh;
+    }
+
+    .compact-text-link-privacy{
+        float: left;
+        width: 90vw;
+        height: 5vh;
+        font-size: 1.7rem;
+        text-align: center;
+        color: #dd7732;
+    }
+
+    .compact-link-contact{
+        float: left;
+        margin-top: 5vh;
+        width: 90vw;
+        height: 9vh;
+        margin-left: 5vw;
+        margin-top: 6.75vh;
+        margin-bottom: 6.75vh;
+    }
+
+    .compact-text-link-contact{
+        float: left;
+        width: 90vw;
+        height: 5vh;
+        font-size: 1.7rem;
+        text-align: center;
+        color: #dd7732;
+    }
+
+    .compact-link-about{
+        float: left;
+        margin-top: 5vh;
+        width: 90vw;
+        height: 9vh;
+        margin-left: 5vw;
+        margin-top: 6.75vh;
+        margin-bottom: 6.75vh;
+    }
+
+    .compact-text-link-about{
+        float: left;
+        width: 90vw;
+        height: 5vh;
+        font-size: 1.7rem;
+        text-align: center;
+        color: #dd7732;
+    }
+
+    .compact-link{
+        transition: all 1s;
+    }
+
+    .compact-link:hover{
+        color: #f5f5f5;
+    }
+}
+

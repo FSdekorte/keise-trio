@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../main.css" rel="stylesheet" type="text/css"/>
+    <link href="./contact.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script defer src="../typing.js"></script>
+    <script defer src="../app.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <form class="form hidden" action="https://api.web3forms.com/submit" method="post">
+        <h1 class="titel_form">Contactformulier</h1>
+        <p class="subtitel_form">Wil je meer informatie over prijzen en samenwerkingen? Vul dan geheel vrijblijvend dit contactformulier in:</p>
+    
+        <input type="hidden" name="access_key" value="1a68b873-b2f1-4c11-a025-315f65d1b31e">
+
+
+            <div class="sub-input-1">
+                <input name="fullname" id="naam" class="naam input" type="text" autocomplete="on" required/> 
+              <label for="input" class="text-label">Naam + Voornaam</label>        
+            </div>    
+
+            <div class="sub-input-5">
+                <input name="E-mail" id="email" class="e-mailadres input" type="email" autocomplete="on" required/> 
+              <label class="text-label">E-mailadres</label>        
+            </div>
+          </div>     
+
+          <div class="sub-input-6">
+              <input name="telefoon" id="telefoon" class="telefoon input" type="tel" autocomplete="on" required/> 
+            <label class="text-label">Telefoon of GSM</label>        
+          </div>  
+          
+          <div class="sub-input-7">
+            <label class="text-label-textarea">Vraag / Offerte</label> 
+              <textarea name="Contact" id="contact" class="contact input"></textarea>    
+          </div>  
+
+          <button type="submit" id="submit" class="submit">Verzenden</button>
+    </form>
+    <script src="script.js"></script>
+
+    <a href="../index.html">
+        <span class="material-symbols-outlined hidden" id="home">
+            home_app_logo
+        </span>
+    </a>
+</body>
+</html>

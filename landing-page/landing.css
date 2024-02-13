@@ -1,0 +1,26 @@
+body{
+    overflow: hidden;
+}
+
+.section-landing-logo{
+    float: left;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.container-landing-logo{
+    float: left;
+    height: 90vh;
+    width: 90vw;
+}
+
+.landing-logo{
+    float: left;
+    width: 50vw;
+    margin-left: 20vw;
+    margin-top: 30vh;
+}
