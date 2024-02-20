@@ -8,6 +8,10 @@
     transform: translate(-100vw);
 }
 
+#nav-ipnut:checked + .nav-bar {
+    transform: translate(100vw);
+}
+
 .nav-bar{
     overflow: hidden;
     background-color: #454545;
