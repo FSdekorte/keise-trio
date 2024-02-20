@@ -4,7 +4,7 @@
 
 /* nav */
 
-#nav-ipnut:not(:checked) + .nav- {
+#nav-ipnut:not(:checked) + .nav-bar {
     transform: translate(-100vw);
 }
 
