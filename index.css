@@ -133,7 +133,15 @@
     }
   }
 
-/* naav */
+
+
+
+
+#nav-input:checked ~ .container #bg-color{
+    display: none;
+}
+
+/* nav */
 
 .section-intro{
     float: left;
