@@ -4,20 +4,17 @@
 
 /* nav */
 
-.nav-bar{
-    width: 100vw;
-    height: 100vh; 
+#nav-ipnut:not(:checked) + .nav- {
+    transform: translate(-100vw);
 }
 
-/* .bg-color{
+.nav-bar{
+    overflow: hidden;
     background-color: #454545;
     width: 100vw;
     height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
     z-index: 999;
-} */
+}
 
 .nav {
     z-index: 9999;
