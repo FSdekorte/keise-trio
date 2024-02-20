@@ -329,10 +329,10 @@ body{
 .bts-collage{
     float: left;
     width: 18vw;
-    height: 30vh;
+    height: 35vh;
     margin-left: 3vw;
     margin-right: 3vw;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     border-radius: 50px;
     background-color: #dd7732;
 }
