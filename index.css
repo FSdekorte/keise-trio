@@ -20,7 +20,7 @@
     background: none;
     width: 65px;
     height: 36,4px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     margin-top: -2.5vh;
@@ -132,14 +132,6 @@
       }
     }
   }
-
-
-
-
-
-#nav-input:checked ~ #bg-color{
-    display: none;
-}
 
 /* nav */
 
