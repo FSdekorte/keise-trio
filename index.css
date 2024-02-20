@@ -9,7 +9,7 @@
 }
 
 #nav-ipnut:checked + .nav-bar {
-    transform: translate(100vw);
+    transform: translate(0vw);
 }
 
 .nav-bar{
