@@ -4,9 +4,12 @@ body{
 
 /* nav */
 
-
+.bg-color{
+    background-color: #454545;
+}
 
 .nav {
+    z-index: 165156;
     --color: #dd7732; 
     background: none;
     width: 65px;
