@@ -319,22 +319,23 @@ body{
 
 .section-bts-collage{
     float: left;
-    height: 100vh;
-    width: 100vw;
-    background-color: aqua;
+    height: 90vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 90vw;
 }
 
 .bts-collage{
     float: left;
     width: 18vw;
     height: 35vh;
-    padding-left: 1.5vw;
-    margin-left: 6vw;
+    margin-left: 3vw;
     margin-right: 3vw;
-    margin-top: 8vh;
+    margin-top: 5vh;
     margin-bottom: 5vh;
     border-radius: 50px;
-    background-color: #dd7732;
 }
 
 .bts-collage:nth-child(1){
