@@ -239,7 +239,6 @@ body{
     height: 90vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    background-color: #dd7732;
 }
 
 .container-artist-shoot-title{
@@ -336,6 +335,7 @@ body{
     margin-top: 5vh;
     margin-bottom: 5vh;
     border-radius: 50px;
+    background-color: #dd7732;
 }
 
 .bts-collage:nth-child(1){
