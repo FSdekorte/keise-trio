@@ -10,6 +10,8 @@ body{
     width: 100px;
     height: 56px;
     position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
