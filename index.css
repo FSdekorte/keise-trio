@@ -4,6 +4,11 @@
 
 /* nav */
 
+.nav-bar{
+    width: 100vw;
+    height: 100vh; 
+}
+
 /* .bg-color{
     background-color: #454545;
     width: 100vw;
