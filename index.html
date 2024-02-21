@@ -11,40 +11,7 @@
     <title>Keise Trio</title>
 </head>
 <body>
-    <div class="nav">
-        <input type="checkbox" id="nav-input"/>
-        <svg>
-          <use xlink:href="#menu" />
-          <use xlink:href="#menu" />
-        </svg>
-    </div>
-
-    <section class="nav-bar">
-        <div>
-            &nbsp;
-        </div>
-    </section>
-      
-    <script>
-    $(document).ready(function() {
-    $('input[type="checkbox"]').click(function() {
-    $(".box").hide() //hide all checkboxes
-    //loop through checked checkboxs
-    $('input[type="checkbox"]:checked').each(function() {
-      var inputValue = $(this).attr("value");
-      $("." + inputValue).show(); //show them
-            })
-        });
-    });
-    </script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-
-      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 56" id="menu">
-          <path d="M48.33,45.6H18a14.17,14.17,0,0,1,0-28.34H78.86a17.37,17.37,0,0,1,0,34.74H42.33l-21-21.26L47.75,4"/>
-        </symbol>
-      </svg>
-
+    
     <section class="section-intro">
         <div class="container-logo-typing">
         <img src="images/Middel 1.svg" class="logo-section-1">
@@ -115,6 +82,9 @@
     </section>
 
     <section class="section-bts-collage">
+        <div class="container-artist-shoot-title">
+        <h1 class="artist-shoot-title"> Artiesten </h1>
+        </div>
         <div class="container-bts-collage">
             <div class="bts-collage hidden"></div>
             <div class="bts-collage hidden"></div>
@@ -126,6 +96,5 @@
             <div class="bts-collage hidden"></div>
         </div>
     </section>
-
 </body>
 </html>
