@@ -105,6 +105,31 @@
 
     <footer>
         <div class="img-footer">d</div>
+        <img name="slide" width="200" height="133">
+        <script>
+            var i = 0; 
+            var images = [];
+            var time = 2500;
+        
+        images[0]='korneel.jpeg';
+        images[1]='matisse.jpeg';
+        images[2]='wolf.jpeg';
+        
+        function changeImg(){
+            document.slide.src = images[i];
+        
+            if(i < images.length - 1){
+                i++;
+            } else {
+                i = 0;
+            }
+        
+            setTimeout("changeImg()", time);
+        }
+        
+        window.onload = changeImg;
+        
+        </script>
     </footer>
 </body>
 </html>
