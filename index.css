@@ -11,18 +11,9 @@
 
 /* coding */
 
-footer{
+.slider{
     width: 55vw;
-    height: 90vh;
-    float: left;
-}
-
-.img-footer{
-    height: 100%;
-    width: 100%;
-    background-image: url(./images/korneel.JPEG);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 40vh;
 }
 
 /* coding */
