@@ -13,6 +13,8 @@
 
 .img-footer{
     background-image: url(./images/korneel.JPEG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* coding */
