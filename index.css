@@ -11,9 +11,12 @@
 
 /* coding */
 
-.img-footer{
+footer{
     width: 55vw;
     height: 40vh;
+}
+
+.img-footer{
     background-image: url(./images/korneel.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
