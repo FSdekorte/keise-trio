@@ -368,43 +368,59 @@
 .bts-collage:nth-child(1){
     float: left;
     margin-left: 0vw;
+    background-image: url(./images/testfoto-1.jpg);
+    background-size: cover;
 }
 
 .bts-collage:nth-child(2){
     float: left;
     transition-delay: 200ms;
+    background-image: url(./images/testfoto-2.jpg);
+    background-size: cover;
 }
 
 .bts-collage:nth-child(3){
     float: left;
     transition-delay: 400ms;
+    background-image: url(./images/testfoto-3.jpg);
+    background-size: cover;
 }
 
 .bts-collage:nth-child(4){
     float: left;
     margin-right: 0vw;
     transition-delay: 600ms;
+    background-image: url(./images/testfoto-4.jpg);
+    background-size: cover;
 }
 
 .bts-collage:nth-child(5){
     float: left;
     margin-left: 0vw;
     transition-delay: 800ms;
+    background-image: url(./images/testfoto-5.jpg);
+    background-size: cover;
 }
 
 .bts-collage:nth-child(6){
     float: left;
     transition-delay: 1000ms;
+    background-image: url(./images/testfoto-6.jpg);
+    background-size: cover;
 }
 
 .bts-collage:nth-child(7){
     float: left;
     transition-delay: 1200ms;
+    background-image: url(./images/testfoto-7.jpg);
+    background-size: cover;
 }
 
 .bts-collage:nth-child(8){
     margin-right: 0vw;
     transition-delay: 1400ms;
+    background-image: url(./images/testfoto-8.jpg);
+    background-size: cover;
 }
 
 @media screen and (max-width: 896px) {
@@ -416,6 +432,13 @@
 /* BTS */
 
 /* logo-slider */
+
+.text-logo-slider{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    color: #dd7732;
+}
 
 .img-logo-slider {
     width: 100px;
