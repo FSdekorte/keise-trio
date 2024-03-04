@@ -465,3 +465,23 @@
 }
 
 /* logo-slider */
+
+/* footer */
+
+footer{
+    float: left;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 3vh;
+}
+
+.container-footer{
+    float: left;
+}
+
+.footer-text-second-row{
+    pzadding-top: -3vh;
+}
+
+/* footer */
