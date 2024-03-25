@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@vercel/speed-insights": "^1.0.10"
+    "@vercel/speed-insights": "^1.0.10",
+    "aos": "^2.3.4",
+    "motion": "^10.17.0"
   }
 }
